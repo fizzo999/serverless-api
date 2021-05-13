@@ -1,0 +1,23 @@
+{
+  "name": "get-lambda",
+  "version": "1.0.0",
+  "description": "AWS lambda connected to AWS API and dynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fizzo999/serverless-api.git"
+  },
+  "author": "Fizzo Pannosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fizzo999/serverless-api/issues"
+  },
+  "homepage": "https://github.com/fizzo999/serverless-api#readme",
+  "dependencies": {
+    "dynamoose": "^2.7.3",
+    "uuid": "^8.3.2"
+  }
+}
